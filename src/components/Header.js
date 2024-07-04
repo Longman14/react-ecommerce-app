@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <header className="header-top-strip py-3">
-        <div className="container-xxl">
+        <div className="container-xxl px-4">
           <div className="row">
             <div className="col-6">
               <p className="text-white mb-0">
@@ -24,7 +24,7 @@ const Header = () => {
         </div>
       </header>
       <header className="header-upper py-3">
-        <div className="container-xxl">
+        <div className="container-xxl px-4">
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
@@ -86,7 +86,7 @@ const Header = () => {
         </div>
       </header>
       <header className="header-bottom py-3">
-        <div className="container-xxl">
+        <div className="container-xxl px-4">
           <div className="row">
             <div className="col-12">
               <div className="menu-bottom d-flex align-items-center gap-30">
