@@ -9,7 +9,7 @@ const Header = () => {
           <div className="row">
             <div className="col-6">
               <p className="text-white mb-0">
-                Free Shipping on Orders Above #20,000
+                Free Shipping on Orders Above #200,000
               </p>
             </div>
             <div className="col-6">
