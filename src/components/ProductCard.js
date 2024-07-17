@@ -24,7 +24,7 @@ const ProductCard = () => {
           <ReactStars
             count={5}
             // onChange={ratingChanged}
-            value="4"
+            value={5}
             edit={false}
             size={24}
             activeColor="#ffd700"

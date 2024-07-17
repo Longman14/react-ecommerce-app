@@ -11,7 +11,7 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
-              <div class="main-banner position-relative p-3">
+              <div className="main-banner position-relative p-3">
                 <img
                   src="assets/images/main-banner-1.jpg"
                   className="img-fluid rounded-3"
@@ -26,8 +26,8 @@ const Home = () => {
               </div>
             </div>
             <div className="col-6">
-              <div class="d-flex flex-wrap gap-10 justify-content-between align-items-center">
-                <div class="small-banner position-relative">
+              <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
+                <div className="small-banner position-relative">
                   <img
                     src="assets/images/catbanner-01.jpg"
                     className="img-fluid rounded-3"
@@ -39,7 +39,7 @@ const Home = () => {
                     <p>From $1200</p>
                   </div>
                 </div>
-                <div class="small-banner position-relative">
+                <div className="small-banner position-relative">
                   <img
                     src="assets/images/catbanner-02.jpg"
                     className="img-fluid rounded-3"
@@ -51,7 +51,7 @@ const Home = () => {
                     <p>From $999</p>
                   </div>
                 </div>
-                <div class="small-banner position-relative ">
+                <div className="small-banner position-relative ">
                   <img
                     src="assets/images/catbanner-03.jpg"
                     className="img-fluid rounded-3"
@@ -63,7 +63,7 @@ const Home = () => {
                     <p>From $999</p>
                   </div>
                 </div>
-                <div class="small-banner position-relative">
+                <div className="small-banner position-relative">
                   <img
                     src="assets/images/catbanner-04.jpg"
                     className="img-fluid rounded-3"
@@ -192,42 +192,38 @@ const Home = () => {
         </div>
       </section>
       <section className="featured-wrapper py-5 home-wrapper-2">
-        <div class="container-xxl">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="section-heading">Featured Collection</h3>
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Featured Collection</h3>
             </div>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
-            <ProductCard/>
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
           </div>
         </div>
       </section>
       <section className="special-wrapper py-5 home-wrapper-2">
-          <div class="container-xxl">
-            <div class="row">
-              <div class="col-12">
-                <h3 className="section-heading
-                ">
-                  Special Products
-                </h3>
-              </div>
-              <div class="row">
-                <div class="col-3">
-                  <SpecialProduct/>
-                  <SpecialProduct/>
-                  <SpecialProduct/>
-                </div>
-              </div>
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Special Products</h3>
             </div>
           </div>
+          <div className="row">
+            <SpecialProduct />
+            <SpecialProduct />
+            <SpecialProduct />
+            
+          </div>
+        </div>
       </section>
       <section className="marque-wrapper home-wrapper-2 py-3">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <div class="marque-inner-wrapper card-wrapper">
+              <div className="marque-inner-wrapper card-wrapper">
                 <Marquee className="d-flex">
                   <div className="mx-4 w-25">
                     <img src="assets/images/brand-01.png" alt="brand" />
@@ -259,17 +255,17 @@ const Home = () => {
           </div>
         </div>
       </section>
-      
+
       <section className="blog-wrapper py-5 home-wrapper-2">
-        <div class="container-xxl">
-          <div class="row">
-            <div class="col-12">
-              <h3 class="section-heading">Our Latest Blogs</h3>
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading">Our Latest Blogs</h3>
             </div>
-            <BlogCard/>
-            <BlogCard/>
-            <BlogCard/>
-            <BlogCard/>
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
           </div>
         </div>
       </section>
