@@ -243,7 +243,7 @@ const Home = () => {
                   <div className="famous-content position-absolute">
                   <h5 className="text-dark">Home speakers</h5>
                   <h6 className="text-dark">Room-Filling Sound</h6>
-                  <p className="text-dark">From #100,000 or #12,000/mo. for 12 mo.*</p>
+                  <p className="text-dark fw-semibold">From #100,000 or #12,000/mo. for 12 mo.*</p>
                   </div>
                 </div>
             </div>
