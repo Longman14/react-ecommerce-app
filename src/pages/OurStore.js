@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/Meta";
 import ReactStars from "react-rating-stars-component";
+import ProductCard from "../components/ProductCard";
 
 const OurStore = () => {
+  const [ grid, setGrid ] = useState(4);
+  
   return (
     <>
       <Meta title={"Our Store"} />
@@ -163,7 +166,7 @@ const OurStore = () => {
                         size={24}
                         activeColor="#ffd700"
                       />
-                      <p className="fw-bold fs-10">#20,000</p>
+                      <p className="fw-bold fs-6">#20,000</p>
                     </div>
                   </div>
                   <div className="random-products d-flex">
@@ -186,13 +189,86 @@ const OurStore = () => {
                         size={24}
                         activeColor="#ffd700"
                       />
-                      <p className="fw-bold fs-10">#20,000</p>
+                      <p className="fw-bold fs-6">#20,000</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="col-9"></div>
+            <div className="col-9">
+              <div className="filter-sort-grid mb-4">
+                <div className="d-flex justify-content-between align-items-center">
+                  <div className="d-flex align-items-center gap-10">
+                    <p class="mb-0 d-block" style={{ width: "100px" }}>
+                      Sort By:
+                    </p>
+                    <select className="form-control form-select" id="">
+                      <option value="manual">Featured</option>
+                      <option value="best-selling" selected="selected">
+                        Best Selling
+                      </option>
+                      <option value="title-ascending">
+                        Alphabetically, A-Z
+                      </option>
+                      <option value="title-descending">
+                        Alphabetically, Z-A
+                      </option>
+                      <option value="price-ascending">
+                        Price, low to high
+                      </option>
+                      <option value="price-descending">
+                        Price, high to low
+                      </option>
+                      <option value="created-descending">
+                        Date, new to old
+                      </option>
+                    </select>
+                  </div>
+                  <div className="d-flex align-items-center gap-10">
+                    <p className="total-products mb-0">21 Products</p>
+                    <div className="d-flex gap-10 align-items-center grid">
+                      <img
+                        className="d-block img-fluid"
+                        onClick={() => {
+                          setGrid(3);
+                        }}
+                        src="assets/images/gr4.svg"
+                        alt="grid"
+                      />
+                      <img
+                        className="d-block img-fluid"
+                        onClick={() => {
+                          setGrid(4);
+                        }}
+                        src="assets/images/gr3.svg"
+                        alt="grid"
+                      />
+                      <img
+                        className="d-block img-fluid"
+                        onClick={() => {
+                          setGrid(6);
+                        }}
+                        src="assets/images/gr2.svg"
+                        alt="grid"
+                      />
+                      <img
+                        className="d-block img-fluid"
+                        onClick={() => {
+                          setGrid(12);
+                        }}
+                        src="assets/images/gr.svg"
+                        alt="grid"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="products-list pb-5">
+                <div className="d-flex gap-10">
+                <ProductCard grid={grid}/>
+                </div>
+              </div> 
+            </div>
           </div>
         </div>
       </div>
