@@ -8,7 +8,8 @@ const Login = () => {
     <div>
       <Meta title={"Login"} />
       <BreadCrumb title={"Login"} />
-      <div className="login-wrapper home-wrpper-2 py-5">
+      <div className="login-wrapper home-wrapper-2 py-5">
+        <div className="container-xxl">
         <div className="row">
           <div className="col-12">
             <div className="auth-card">
@@ -24,12 +25,13 @@ const Login = () => {
                   <Link to="/forgot-password">Forgot Password?</Link>
                 </div>
                 <div className="d-flex mt-3 justify-content-center align-items-center gap-15">
-                  <button className="button border-0">Login</button>
-                  <Link className="button signup">Sign Up</Link>
-                </div>
+                  <button type="submit" className="button border-0">Login</button>
+                  <Link to="/sign-up" className="button signup">Sign Up</Link>
+                </div> 
               </form>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

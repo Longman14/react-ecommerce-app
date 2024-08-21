@@ -260,6 +260,21 @@ footer .input-group-text {
   margin-bottom: 30px;
 }
 
+.single-blog-card{
+ font-size: 24px; 
+ font-weight: 600;
+ color: var(--color-1c1c1b);
+}
+.single-blog-card p{
+  font-size: 14px;
+color: var(--color-777777);
+}
+.single-blog-card a{
+  font-size: 18px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
+
 /* Blog part ends*/
 
 /* Product Part Starts Here */
@@ -328,6 +343,7 @@ footer .input-group-text {
 .wishlist-icon {
   top: 3%;
   right: 15px;
+  z-index: 10;
 }
 /* Product Part Ends Here */
 
@@ -585,6 +601,11 @@ footer .input-group-text {
 .auth-card .signup:hover{
   background-color: var(--color-131921);
   color: var(--color-febd69);
+}
+.auth-card p{
+  font-size: 13px;
+  color: var(--color-777777);
+  
 }
 
 /* auth card ends here */
