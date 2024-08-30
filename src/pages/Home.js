@@ -208,44 +208,62 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-3">
-                <div className="famous-card position-relative">
-                  <img src="assets/images/famous.jpg" className="img-fluid" alt="laptops"/>
-                  <div className="famous-content position-absolute">
+              <div className="famous-card position-relative">
+                <img
+                  src="assets/images/famous.jpg"
+                  className="img-fluid"
+                  alt="laptops"
+                />
+                <div className="famous-content position-absolute">
                   <h5>Big Screen</h5>
                   <h6>Smart Watch Series</h6>
                   <p>From #200,000 or #10,000/mo. for 24 mo.*</p>
-                  </div>
                 </div>
+              </div>
             </div>
             <div className="col-3">
-                <div className="famous-card position-relative">
-                  <img src="assets/images/famous-2.jpg" className="img-fluid" alt="watch"/>
-                  <div className="famous-content position-absolute">
+              <div className="famous-card position-relative">
+                <img
+                  src="assets/images/famous-2.jpg"
+                  className="img-fluid"
+                  alt="watch"
+                />
+                <div className="famous-content position-absolute">
                   <h5 className="text-dark">Studio Display</h5>
                   <h6 className="text-dark">600 nits of brightness.</h6>
                   <p className="text-dark">27-inch 5k Retina Display</p>
-                  </div>
                 </div>
+              </div>
             </div>
             <div className="col-3">
-                <div className="famous-card position-relative">
-                  <img src="assets/images/famous-4.jpg" className="img-fluid" alt="smartphone"/>
-                  <div className="famous-content position-absolute">
+              <div className="famous-card position-relative">
+                <img
+                  src="assets/images/famous-4.jpg"
+                  className="img-fluid"
+                  alt="smartphone"
+                />
+                <div className="famous-content position-absolute">
                   <h5 className="text-dark">Smartphones</h5>
                   <h6 className="text-dark">Smartphone 13 Pro</h6>
                   <p className="text-dark">Now in your Favourite colours</p>
-                  </div>
                 </div>
+              </div>
             </div>
             <div className="col-3">
-                <div className="famous-card position-relative">
-                  <img src="assets/images/famous-3.jpg" className="img-fluid" alt="speakers"/>
-                  <div className="famous-content position-absolute">
+              <div className="famous-card position-relative">
+                <img
+                  src="assets/images/famous-3.jpg"
+                  className="img-fluid"
+                  alt="speakers"
+                />
+                <div className="famous-content position-absolute">
                   <h5 className="text-dark">Home speakers</h5>
                   <h6 className="text-dark">Room-Filling Sound</h6>
-                  <p className="text-dark fw-semibold">From #100,000 or #12,000/mo. for 12 mo.*</p>
-                  </div>
+                  <p className="text-dark fw-semibold">
+                    From #100,000 or #12,000/mo. for 12 mo.*
+                  </p>
                 </div>
+              </div>
             </div>
           </div>
         </div>
@@ -322,20 +340,19 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Our Latest Blogs</h3>
             </div>
-            
           </div>
           <div className="row">
             <div className="col-3">
-              <BlogCard/>
+              <BlogCard />
             </div>
             <div className="col-3">
-              <BlogCard/>
+              <BlogCard />
             </div>
             <div className="col-3">
-              <BlogCard/>
+              <BlogCard />
             </div>
             <div className="col-3">
-              <BlogCard/>
+              <BlogCard />
             </div>
           </div>
         </div>

@@ -6,8 +6,8 @@ import ProductCard from "../components/ProductCard";
 import Color from "../components/Color";
 
 const OurStore = () => {
-  const [ grid, setGrid ] = useState(4);
-  
+  const [grid, setGrid] = useState(4);
+
   return (
     <>
       <Meta title={"Our Store"} />
@@ -83,7 +83,7 @@ const OurStore = () => {
                   <h5 className="sub-title">Colors</h5>
                   <div>
                     <div className="">
-                     <Color/>
+                      <Color />
                     </div>
                   </div>
                   <h5 className="sub-title">Size</h5>
@@ -254,9 +254,11 @@ const OurStore = () => {
               </div>
               <div className="products-list pb-5">
                 <div className="d-flex gap-10">
-                <ProductCard grid={grid}/>
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
+                  
                 </div>
-              </div> 
+              </div>
             </div>
           </div>
         </div>

@@ -260,16 +260,16 @@ footer .input-group-text {
   margin-bottom: 30px;
 }
 
-.single-blog-card{
- font-size: 24px; 
- font-weight: 600;
- color: var(--color-1c1c1b);
+.single-blog-card {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
 }
-.single-blog-card p{
+.single-blog-card p {
   font-size: 14px;
-color: var(--color-777777);
+  color: var(--color-777777);
 }
-.single-blog-card a{
+.single-blog-card a {
   font-size: 18px;
   color: var(--color-777777);
   margin-bottom: 20px;
@@ -567,45 +567,68 @@ color: var(--color-777777);
 }
 /* Compare Product Page Ends Here */
 /* auth card starts here */
-.auth-card{
+.auth-card {
   padding: 20px;
   background-color: white;
   box-shadow: 0 0 20px #0000001a;
-  width:  500px;
+  width: 500px;
   border-radius: 10px;
-  margin: 30px auto; 
+  margin: 30px auto;
 }
-.auth-card h3{
+.auth-card h3 {
   font-size: 19px;
   font-weight: 500;
   color: var(--color-777777);
 }
-.auth-card .form-control{
+.auth-card .form-control {
   height: 50px;
-  background-color:var(--color-f5f5f7);
+  background-color: var(--color-f5f5f7);
   color: var(--color-777777);
   font-size: 14px;
   border-radius: 10px;
   border-color: transparent;
 }
-.auth-card a{
+.auth-card a {
   font-size: 14px;
   font-weight: 400;
   color: var(--color-1c1c1b);
-
 }
-.auth-card .signup{
+.auth-card .signup {
   background-color: var(--color-febd69);
   color: var(--color-131921);
 }
-.auth-card .signup:hover{
+.auth-card .signup:hover {
   background-color: var(--color-131921);
   color: var(--color-febd69);
 }
-.auth-card p{
+.auth-card p {
   font-size: 13px;
   color: var(--color-777777);
-  
 }
 
 /* auth card ends here */
+
+/* Policy pages */
+.policy {
+  background-color: white;
+  padding: 30px;
+}
+/* Policy pages end here */
+
+/* Single Product page*/
+.review-inner-wrapper {
+  background-color: white;
+  padding: 30px;
+}
+.review-head {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+
+.review-head h4 {
+}
+
+.review-head {
+}
+
+/* Single Product page ends here */
